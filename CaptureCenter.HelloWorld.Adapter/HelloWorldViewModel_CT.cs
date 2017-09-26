@@ -5,7 +5,6 @@ using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 using ExportExtensionCommon;
-using DOKuStar.Diagnostics.Tracing;
 using System.IO;
 
 namespace CaptureCenter.HelloWorld
@@ -51,10 +50,10 @@ namespace CaptureCenter.HelloWorld
         {
             get {
                 if (settings.Password == null) return string.Empty;
-                return Cryptography.Decrypt(settings.Password);
+                return PasswordEncryption.Decrypt(settings.Password);
             }
             set {
-                settings.Password = Cryptography.Encrypt(value);
+                settings.Password = PasswordEncryption.Encrypt(value);
                 SendPropertyChanged("Password");
             }
         }

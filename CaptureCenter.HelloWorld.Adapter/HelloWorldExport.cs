@@ -31,6 +31,7 @@ namespace CaptureCenter.HelloWorld
                 "\nUsername=" + username
             );
             helloWorldClient.WritePDF(Path.Combine(folderName, name) + ".pdf", document.PDFFileName);
+            document.TargetDocumentId = Path.Combine(folderName, name);
         }
     }
 }

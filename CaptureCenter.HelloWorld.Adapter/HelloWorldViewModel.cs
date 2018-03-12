@@ -5,7 +5,6 @@ using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 using ExportExtensionCommon;
-using DOKuStar.Diagnostics.Tracing;
 using System.IO;
 
 namespace CaptureCenter.HelloWorld
@@ -23,7 +22,7 @@ namespace CaptureCenter.HelloWorld
         public HelloWorldViewModel(SIEESettings settings, IHelloWorldClient helloWorldClient)
         {
             HelloWorldSettings = settings as HelloWorldSettings;
-            HelloWorldClient = helloWorldClient;
+            this.HelloWorldClient = helloWorldClient;
 
             CT = new HelloWorldViewModel_CT(this);
             FT = new HelloWorldViewModel_FT(this);

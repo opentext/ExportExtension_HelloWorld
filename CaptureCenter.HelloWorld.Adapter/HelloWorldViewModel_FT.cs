@@ -3,7 +3,6 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Windows.Controls;
 using ExportExtensionCommon;
-using DOKuStar.Diagnostics.Tracing;
 using System.Xml.Serialization;
 using System.IO;
 using System.Globalization;

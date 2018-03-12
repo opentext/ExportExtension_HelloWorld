@@ -2,7 +2,6 @@
 using System.IO;
 using System.Collections.Generic;
 using ExportExtensionCommon;
-using DOKuStar.Diagnostics.Tracing;
 
 namespace CaptureCenter.HelloWorld
 {

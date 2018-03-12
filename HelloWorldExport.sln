@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.12
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOKuStar.Modules.HelloWorld.Writer", "DOKuStar.Modules.HelloWorld.Writer\DOKuStar.Modules.HelloWorld.Writer.csproj", "{184CC4E6-93DE-47F3-B21D-86AB310AB169}"
 EndProject
@@ -47,5 +47,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0BAFCDE-3414-4AC3-961E-66A37F3E7CFB}
 	EndGlobalSection
 EndGlobal
